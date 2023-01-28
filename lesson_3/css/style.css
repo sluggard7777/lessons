@@ -1,0 +1,42 @@
+@import url("reset.css");
+
+div {
+	color: rgb(128, 0, 96);
+}
+
+.title {
+	color: red;
+}
+
+.text {
+	color: green;
+}
+
+#p-3 {
+	color: blue;
+}
+
+.text2 p {
+	color: rgb(241, 249, 6);
+}
+
+.link.green {
+	color: green;
+}
+
+.text2 .goal__container-p3 {
+	color: rgb(249, 6, 6);
+}
+
+.whoisit__container > p {
+	color: red;
+}
+
+.text ~ p {
+	color: rgb(0, 255, 242);
+}
+
+[class*="__paragraff-p1"] {
+	color: rgb(234, 242, 7);
+}
+
