@@ -1,0 +1,98 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;700&display=swap');
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueCyr-Bold.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueCyr-Medium.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueCyr-Light.woff2") format("woff2"), url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: light;
+	font-display: swap;
+}
+
+body {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px; 
+	font-weight: 300;
+}
+
+h1,h2,h3 {
+	font-family: "Roboto",Roboto,Arial,sans-serif;
+	font-weight: bold;
+}
+
+ul {
+	font-family: "Domine",Domine,Arial,serif;
+}
+
+h1 {
+	font-size: 24px;
+	text-align: center;
+	text-shadow: 2px 2px 5px #000
+}
+
+h2 {
+	font-size: 20px;
+	font-style: italic;
+	text-transform:capitalize;
+}
+
+h3 {
+	font-size: 16px;
+	color: #5b006d;
+	text-transform:uppercase;
+}
+
+.header__list {
+	color: #1f7909;
+	text-decoration: underline;
+
+}
+
+.goal__container p {
+	text-align: center;
+
+}
+.main__list {
+	color: #f40909;
+	text-decoration: line-through;
+}
+
+footer p {
+	font-size: 12px;
+	line-height: 1.7;
+}
+
+.text1 {
+	text-indent: 20px;
+}
+
+.actionsoftheteam__container {
+	white-space: nowrap;
+}
+
+.reviews__paragraff-p3 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+}
+
+.text__result {
+	word-spacing: 10px;
+}
+
