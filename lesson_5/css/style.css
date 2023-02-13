@@ -1,0 +1,56 @@
+@import url("reset.css");
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap);
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	color: #6C757D;
+}
+
+.box {
+	padding: 30px 0 0;
+}
+
+.box__container {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+.box__container-text {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.box__container-text p {
+	line-height: 1.79;
+	margin-bottom: 25px;
+}
+
+.box__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+	max-width: 605px;
+}
+
+.box__container-skroll {
+	height: 200px;
+	overflow: auto;
+}
+
+.image {
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+/* Делаем правильный отступ между картинками */
+.small__image {
+	font-size: 0;
+}
+
+.image__1 {
+	margin-right: 30px;
+}
